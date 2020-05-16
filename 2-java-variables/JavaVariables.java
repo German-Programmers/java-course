@@ -33,6 +33,16 @@ System.out.println("the second is the greatest");
 } else {
 System.out.println("the third is the greatest");
 }
+// input grade number
+// grade must be in range [0 - 100] else pring error 
+// [90 - 100] excellent
+// [80 - 90[ very good
+// [70 - 80[ good
+// [60 - 70[ middle
+// [50 - 60[ weak
+// less than 50 fail
+ 
+
 
 
 
