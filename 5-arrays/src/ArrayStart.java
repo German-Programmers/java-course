@@ -1,4 +1,5 @@
 
+
 public class ArrayStart {
 	public static void main(String[] args) {
 		int[] arr = {5, 9, 8, -2, 8, 10};
@@ -60,6 +61,23 @@ public class ArrayStart {
 		// 5, 9, 8, -2, 8, 10
 		
 		// 2- print the average of arr elements
+		System.out.println("//////////////");
+		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]);
+			if (i != arr.length - 1)
+			System.out.print(", ");
+			else
+				System.out.println();
+		}
+		System.out.println("//////////////");
+		// howmwork 2
+		double sum = 0;
+		for (int i = 0; i < arr.length; i++) {
+			sum += arr[i];
+		}
+		System.out.println(sum);
+		System.out.println(sum / arr.length);
 		
 	}
 
